@@ -1,0 +1,10 @@
+name: Ranks
+version: '${project.version}'
+main: net.theakingdom.ranks.Ranks
+api-version: 1.18
+authors: [ Ecolipsy, ItzScythe, TAKDevTeam ]
+description: Ranks plugin for TAK
+commands:
+  rank:
+    description: Main command for managing ranks
+    permission: tak.ranks.manage
